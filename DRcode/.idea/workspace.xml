@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08c43e3a-83d1-4cac-a9eb-700e4ac6ff7c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/dog_lash_tail.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/dog_nod_head.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/dog_shake_hand.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/dog_sit_down.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/dog_sit_up.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/gecko_pack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/gecko_roll_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/gecko_shake_hand.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/gecko_unpack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/spider_shake_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/spider_shake_hand.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/spider_stand_toe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/stick_arch_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/stick_go_downstairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/stick_go_upstairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/stick_shake_hand.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/to_dog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/to_gecko.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/to_spider.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/system/to_stick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/cow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/crab_backward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/crab_forward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance1_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance1_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance1_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance2_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance2_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance2_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dance4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/deform_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dog_backleg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/dog_thanks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/gecko_dance.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/go_back.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/go_back2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/go_forward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/go_forward2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/guangboticao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/haicao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/in_box.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/init_pose.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/kuoxiong.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/opening.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/out_box.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/pack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/rectangle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/roll_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/rot_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/run_back.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/run_back2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/run_forward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/run_forward2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_back.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_dance.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_forward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_hand.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_hand0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_hand1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_hand2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_left.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_right.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_d0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_d1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_o.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_o0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_o1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_w.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_w0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/serial_write_w1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/shake_head.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/shake_head_kay2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/shake_tail.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/shake_tail_kay2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/shenzhanyundong.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/sit_down.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/sit_up.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/spider_pack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/spider_shake.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_back.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_back2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_change.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_down1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_forward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_forward2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_left.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_right.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_shake.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_shake1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_shake_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_trunk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_up.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_up1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_up1_kay.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/stick_up3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/tabu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/ticao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_dog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_dog1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_gecko.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_gecko1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_spider.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_spider0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_spider1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_spider2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_stick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_stick1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_stick2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/to_word.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/trans_body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/transform.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/transform1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/transform_back.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/transform_back1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/triangle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/turn_left.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/turn_left2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/turn_left3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/turn_right.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/turn_right2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/turn_right3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/unpack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/write_word1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/write_word2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/write_word3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/write_word4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/actions/user/zhanli.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/codes/user/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRCodes/password.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/setting.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ginger$test.coverage" NAME="test Coverage Results" MODIFIED="1526500917071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ginger$video.coverage" NAME="video Coverage Results" MODIFIED="1526806239116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ginger$ginger.coverage" NAME="ginger Coverage Results" MODIFIED="1527484573588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ginger$scope.coverage" NAME="scope Coverage Results" MODIFIED="1527019223857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/libs" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="robot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/libs/robot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="1112" column="47" lean-forward="true" selection-start-line="1112" selection-start-column="47" selection-end-line="1112" selection-end-column="47" />
+              <folding>
+                <element signature="e#747#785#0" />
+                <element signature="e#1238#1336#0" />
+                <element signature="e#1406#1537#0" />
+                <element signature="e#1576#1891#0" />
+                <element signature="e#1926#2214#0" />
+                <element signature="e#2250#2405#0" />
+                <element signature="e#2448#2690#0" />
+                <element signature="e#2715#3004#0" />
+                <element signature="e#3107#3457#0" />
+                <element signature="e#3750#4096#0" />
+                <element signature="e#4346#4723#0" />
+                <element signature="e#4359#4582#0" />
+                <element signature="e#4623#4691#0" />
+                <element signature="e#4768#5094#0" />
+                <element signature="e#4781#4955#0" />
+                <element signature="e#4996#5062#0" />
+                <element signature="e#5126#5256#0" />
+                <element signature="e#5139#5220#0" />
+                <element signature="e#5286#5415#0" />
+                <element signature="e#5450#5553#0" />
+                <element signature="e#5596#7371#0" />
+                <element signature="e#5748#5783#0" />
+                <element signature="e#5802#5831#0" />
+                <element signature="e#5940#6036#0" />
+                <element signature="e#5972#6036#0" />
+                <element signature="e#6073#6118#0" />
+                <element signature="e#6280#6317#0" />
+                <element signature="e#6344#6374#0" />
+                <element signature="e#6419#7357#0" />
+                <element signature="e#6537#6587#0" />
+                <element signature="e#6655#7357#0" />
+                <element signature="e#6722#7357#0" />
+                <element signature="e#6759#7133#0" />
+                <element signature="e#6936#7133#0" />
+                <element signature="e#7176#7357#0" />
+                <element signature="e#7410#8596#0" />
+                <element signature="e#7527#8568#0" />
+                <element signature="e#7563#7779#0" />
+                <element signature="e#7629#7720#0" />
+                <element signature="e#7826#8505#0" />
+                <element signature="e#7865#8143#0" />
+                <element signature="e#7987#8043#0" />
+                <element signature="e#8197#8464#0" />
+                <element signature="e#8319#8375#0" />
+                <element signature="e#8636#8930#0" />
+                <element signature="e#8690#8912#0" />
+                <element signature="e#8835#8912#0" />
+                <element signature="e#9040#11317#0" />
+                <element signature="e#9092#9300#0" />
+                <element signature="e#9113#9300#0" />
+                <element signature="e#9163#9300#0" />
+                <element signature="e#9343#10729#0" />
+                <element signature="e#9413#10051#0" />
+                <element signature="e#9469#9525#0" />
+                <element signature="e#9647#10051#0" />
+                <element signature="e#9706#9721#0" />
+                <element signature="e#10130#10729#0" />
+                <element signature="e#10262#10634#0" />
+                <element signature="e#10307#10322#0" />
+                <element signature="e#10669#10729#0" />
+                <element signature="e#10772#11186#0" />
+                <element signature="e#10868#11186#0" />
+                <element signature="e#11205#11317#0" />
+                <element signature="e#11244#11296#0" />
+                <element signature="e#11438#48409#0" />
+                <element signature="e#11596#11683#0" />
+                <element signature="e#11719#48409#0" />
+                <element signature="e#12117#12278#0" />
+                <element signature="e#12506#12640#0" />
+                <element signature="e#13408#13510#0" />
+                <element signature="e#13713#14507#0" />
+                <element signature="e#13754#13882#0" />
+                <element signature="e#13953#14460#0" />
+                <element signature="e#15575#17584#0" />
+                <element signature="e#15575#15601#0" />
+                <element signature="e#16302#17392#0" />
+                <element signature="e#18503#18666#0" />
+                <element signature="e#18713#20554#0" />
+                <element signature="e#18713#18795#0" />
+                <element signature="e#20601#21862#0" />
+                <element signature="e#20601#20701#0" />
+                <element signature="e#22657#22904#0" />
+                <element signature="e#23207#23300#0" />
+                <element signature="e#23513#25314#0" />
+                <element signature="e#23554#23682#0" />
+                <element signature="e#23717#23813#0" />
+                <element signature="e#23836#25267#0" />
+                <element signature="e#25361#25634#0" />
+                <element signature="e#25681#25953#0" />
+                <element signature="e#26000#26276#0" />
+                <element signature="e#26323#26596#0" />
+                <element signature="e#26643#26916#0" />
+                <element signature="e#26963#27233#0" />
+                <element signature="e#27280#27553#0" />
+                <element signature="e#27600#27872#0" />
+                <element signature="e#27919#28193#0" />
+                <element signature="e#28240#28515#0" />
+                <element signature="e#28562#28930#0" />
+                <element signature="e#28756#28930#0" />
+                <element signature="e#28977#29254#0" />
+                <element signature="e#29301#29575#0" />
+                <element signature="e#29622#29899#0" />
+                <element signature="e#29954#35672#0" />
+                <element signature="e#29954#30027#0" />
+                <element signature="e#31968#32361#0" />
+                <element signature="e#33592#33753#0" />
+                <element signature="e#34063#34201#0" />
+                <element signature="e#34254#34394#0" />
+                <element signature="e#34821#35041#0" />
+                <element signature="e#35328#35448#0" />
+                <element signature="e#35719#36165#0" />
+                <element signature="e#35729#36118#0" />
+                <element signature="e#35823#35862#0" />
+                <element signature="e#35932#35982#0" />
+                <element signature="e#36048#36097#0" />
+                <element signature="e#36225#37442#0" />
+                <element signature="e#36350#37387#0" />
+                <element signature="e#37497#38132#0" />
+                <element signature="e#37507#38085#0" />
+                <element signature="e#38188#38306#0" />
+                <element signature="e#38353#38899#0" />
+                <element signature="e#38353#38431#0" />
+                <element signature="e#38772#38899#0" />
+                <element signature="e#38946#39110#0" />
+                <element signature="e#39157#39357#0" />
+                <element signature="e#39167#39310#0" />
+                <element signature="e#39404#39666#0" />
+                <element signature="e#39414#39619#0" />
+                <element signature="e#39511#39545#0" />
+                <element signature="e#39713#39943#0" />
+                <element signature="e#39723#39896#0" />
+                <element signature="e#39785#39819#0" />
+                <element signature="e#39990#40220#0" />
+                <element signature="e#40000#40173#0" />
+                <element signature="e#40062#40096#0" />
+                <element signature="e#40267#40368#0" />
+                <element signature="e#40415#40676#0" />
+                <element signature="e#40425#40629#0" />
+                <element signature="e#40723#41103#0" />
+                <element signature="e#40733#41056#0" />
+                <element signature="e#41189#42450#0" />
+                <element signature="e#41230#41358#0" />
+                <element signature="e#41431#42319#0" />
+                <element signature="e#42536#43795#0" />
+                <element signature="e#42577#42705#0" />
+                <element signature="e#42778#43748#0" />
+                <element signature="e#43881#45037#0" />
+                <element signature="e#43922#44050#0" />
+                <element signature="e#44123#44990#0" />
+                <element signature="e#45084#45208#0" />
+                <element signature="e#45255#45356#0" />
+                <element signature="e#45403#45504#0" />
+                <element signature="e#45551#45652#0" />
+                <element signature="e#45699#45841#0" />
+                <element signature="e#45888#46077#0" />
+                <element signature="e#45898#46030#0" />
+                <element signature="e#46124#46229#0" />
+                <element signature="e#46276#46381#0" />
+                <element signature="e#46428#46633#0" />
+                <element signature="e#46438#46586#0" />
+                <element signature="e#46680#46783#0" />
+                <element signature="e#46831#46933#0" />
+                <element signature="e#48285#48304#0" />
+                <element signature="e#50067#50318#0" />
+                <element signature="e#50170#50318#0" />
+                <element signature="e#50403#51686#0" />
+                <element signature="e#50447#51597#0" />
+                <element signature="e#50447#50477#0" />
+                <element signature="e#50824#51597#0" />
+                <element signature="e#50925#50937#0" />
+                <element signature="e#51141#51316#0" />
+                <element signature="e#51379#51448#0" />
+                <element signature="e#51513#51597#0" />
+                <element signature="e#51636#51686#0" />
+                <element signature="e#51728#52182#0" />
+                <element signature="e#51816#52138#0" />
+                <element signature="e#51825#52112#0" />
+                <element signature="e#52244#52460#0" />
+                <element signature="e#53872#54027#0" />
+                <element signature="e#53933#54027#0" />
+                <element signature="e#54090#54179#0" />
+                <element signature="e#54259#54535#0" />
+                <element signature="e#54276#54491#0" />
+                <element signature="e#54611#54879#0" />
+                <element signature="e#54628#54835#0" />
+                <element signature="e#54971#55081#0" />
+                <element signature="e#55155#55248#0" />
+                <element signature="e#55318#55508#0" />
+                <element signature="e#55335#55464#0" />
+                <element signature="e#55574#55759#0" />
+                <element signature="e#55591#55715#0" />
+                <element signature="e#55839#56667#0" />
+                <element signature="e#55864#56251#0" />
+                <element signature="e#55963#56200#0" />
+                <element signature="e#55988#56140#0" />
+                <element signature="e#56278#56667#0" />
+                <element signature="e#56378#56616#0" />
+                <element signature="e#56403#56556#0" />
+                <element signature="e#56736#57606#0" />
+                <element signature="e#56761#57169#0" />
+                <element signature="e#56855#57118#0" />
+                <element signature="e#56880#57002#0" />
+                <element signature="e#57196#57606#0" />
+                <element signature="e#57291#57555#0" />
+                <element signature="e#57316#57439#0" />
+                <element signature="e#57662#62572#0" />
+                <element signature="e#57730#57846#0" />
+                <element signature="e#57894#62572#0" />
+                <element signature="e#57994#58236#0" />
+                <element signature="e#58291#58526#0" />
+                <element signature="e#58568#58981#0" />
+                <element signature="e#59458#60170#0" />
+                <element signature="e#60214#60799#0" />
+                <element signature="e#60843#61937#0" />
+                <element signature="e#61981#62572#0" />
+                <element signature="e#60839#60972#0" />
+                <element signature="e#60856#60928#0" />
+                <element signature="e#61033#61301#0" />
+                <element signature="e#61050#61257#0" />
+                <element signature="e#61359#61459#0" />
+                <element signature="e#61509#61541#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/api/network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#48#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spots</find>
+      <find>'spots_dir_song'</find>
+      <find>pose_list[</find>
+      <find>box</find>
+      <find>stick_up</find>
+      <find>可爱</find>
+      <find>自我介绍</find>
+      <find>pack</find>
+      <find>自我</find>
+      <find>ok</find>
+      <find>当前姿态</find>
+      <find>['spots_dir_song', 67]</find>
+      <find>origaker.spots_dir_song(1,</find>
+      <find>青春</find>
+      <find>turn_off</find>
+      <find>\</find>
+      <find>/</find>
+      <find>/home/pi/DRrobot/app/DR/music/</find>
+      <find>/home</find>
+      <find>from DRrobot_V1</find>
+      <find>DRrobot_V1</find>
+      <find>import DRrobot_V1</find>
+      <find>get_joint</find>
+      <find>mp.speak</find>
+      <find>aplay</find>
+      <find>read_joints</find>
+      <find>读取的</find>
+      <find>电量</find>
+      <find>breakdown</find>
+      <find>OK</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>gl.</replace>
+      <replace>gl.get_value('state')</replace>
+      <replace>gl.set_value('state'</replace>
+      <replace>action</replace>
+      <replace>code</replace>
+      <replace>error_code</replace>
+      <replace />
+      <replace>print('检测出异常{}'.format(result))</replace>
+      <replace>if robot.go_backward(data) == 1:</replace>
+      <replace>if robot.roll(data) == 1:</replace>
+      <replace>sleep</replace>
+      <replace>'sleep'</replace>
+      <replace>'delay'</replace>
+      <replace>MetaRobot()</replace>
+      <replace>MetaRobot().zip_action</replace>
+      <replace>origaker</replace>
+      <replace>if origaker.c_state != 4:</replace>
+      <replace>origaker.spots_dir_song</replace>
+      <replace>pose_list[i][</replace>
+      <replace>origaker.spots_dir_song(1, 1</replace>
+      <replace>&quot;+VOICE_PATH_SYS+&quot;music/</replace>
+      <replace>from DRcode</replace>
+      <replace>import DRcode</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\zhao\Desktop\DRrobot0306\DRrobot</dir>
+      <dir>Z:\USER-zhao\众筹版机器人\树莓派\程序文件\DRrobot</dir>
+      <dir>C:\Users\86176\Desktop\DRrobot</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/libs/password.py" />
+        <option value="$PROJECT_DIR$/test_class.py" />
+        <option value="$PROJECT_DIR$/app/libs/global_var.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/token.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/password.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/password.py" />
+        <option value="$PROJECT_DIR$/app/libs/test.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/camera.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/states.py" />
+        <option value="$PROJECT_DIR$/app/libs/error_code.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/actions.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/actions.py" />
+        <option value="$PROJECT_DIR$/MODIFY_DESCRIPTION.txt" />
+        <option value="$PROJECT_DIR$/app/validators/forms.py" />
+        <option value="$PROJECT_DIR$/../../func.py" />
+        <option value="$PROJECT_DIR$/../树莓派板调试专用舵机库/servo_rpi.py" />
+        <option value="$PROJECT_DIR$/app/libs/music-test.py" />
+        <option value="$PROJECT_DIR$/app/libs/music_test.py" />
+        <option value="$USER_HOME$/Downloads/tts_python3_demo/test_webtts.py" />
+        <option value="D:/mp3模块安装/func.py" />
+        <option value="$PROJECT_DIR$/app/validators/forms.py" />
+        <option value="$PROJECT_DIR$/app/libs/camera.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/codes.py" />
+        <option value="D:/../智能佳合作项目/程序文件/机器人源程序/walking_robot/meta_robot_v14.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/output.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/instructs.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/network.py" />
+        <option value="$PROJECT_DIR$/app/libs/udp.py" />
+        <option value="$PROJECT_DIR$/../众筹版机器人程序/DRrobot/app/DR/data/store_sd.py" />
+        <option value="$PROJECT_DIR$/DRrobot.py" />
+        <option value="$PROJECT_DIR$/app/config/secure.py" />
+        <option value="$PROJECT_DIR$/../众筹版机器人程序/DRrobot/app/libs/instructs.py" />
+        <option value="$PROJECT_DIR$/app/libs/1" />
+        <option value="$PROJECT_DIR$/app/libs/12" />
+        <option value="$PROJECT_DIR$/app/libs/instructs.py" />
+        <option value="$PROJECT_DIR$/app/libs/1.py" />
+        <option value="$PROJECT_DIR$/app/libs/tf_test.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/app/libs/store_sd.py" />
+        <option value="$PROJECT_DIR$/../DRboot.py" />
+        <option value="$PROJECT_DIR$/app/config/setting.py" />
+        <option value="$PROJECT_DIR$/app/libs/servo_rpi.py" />
+        <option value="$PROJECT_DIR$/app/libs/switch.py" />
+        <option value="$PROJECT_DIR$/app/api/instructs.py" />
+        <option value="$PROJECT_DIR$/app/libs/music.py" />
+        <option value="$PROJECT_DIR$/app/libs/meta_robot.py" />
+        <option value="$PROJECT_DIR$/app/api/network.py" />
+        <option value="$PROJECT_DIR$/app/libs/robot.py" />
+        <option value="$PROJECT_DIR$/app/libs/robot.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="547" />
+    <option name="y" value="160" />
+    <option name="width" value="830" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\USER-zhao\众筹版机器人\树莓派\程序文件\树莓派板调试专用舵机库" />
+      <recent name="Z:\USER-zhao\众筹版机器人\树莓派\程序文件\DRrobot\app\libs" />
+      <recent name="C:\Users\DRTech\Desktop\众筹版机器人RPI_V2\DRrobot\app\libs" />
+      <recent name="D:\MY\ginger\app\models" />
+      <recent name="D:\MY\ginger\app\api\v1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MY\DRrobot\app\libs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="meta_robot_v14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DRrobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/../智能佳合作项目/程序文件/机器人源程序/walking_robot" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/../智能佳合作项目/程序文件/机器人源程序/walking_robot/meta_robot_v14.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="store_sd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DRrobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../.." />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DRrobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DRrobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../python" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DRrobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\zhao\AppData\Local\Programs\Python\Python36-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.meta_robot_v14" />
+      <item itemvalue="Python.store_sd" />
+      <item itemvalue="Python.test (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.store_sd" />
+        <item itemvalue="Python.meta_robot_v14" />
+        <item itemvalue="Python.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08c43e3a-83d1-4cac-a9eb-700e4ac6ff7c" name="Default" comment="" />
+      <created>1525584908789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525584908789</updated>
+      <workItem from="1553137958588" duration="1963000" />
+      <workItem from="1553144849428" duration="9272000" />
+      <workItem from="1553157777251" duration="43000" />
+      <workItem from="1553157911680" duration="432000" />
+      <workItem from="1553162376268" duration="465000" />
+      <workItem from="1553244946073" duration="253000" />
+      <workItem from="1553246416085" duration="1073000" />
+      <workItem from="1553249105132" duration="458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13959000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="547" y="160" width="830" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28401586" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18518518" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.4421553" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32875" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51664025" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28453216" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55487806" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.4421553" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51664025" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32875" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.26309523" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.virtualenvs/ginger-DTk7lalq/lib/python3.6/site-packages/flask/json/__init__.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/api/v1/instructs.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/token_auth.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/api/v1/password.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/api/v1/password.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>355</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/api/v1/__init__.py</url>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>409</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/api/v1/instructs.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>300</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/api/v1/instructs.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/mp3模块安装/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Downloads/tts_python3_demo/tts_python3_demo/test_webtts.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/../智能佳合作项目/程序文件/机器人程序20180810-最终版/wifi.py</url>
+          <line>320</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>588</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>380</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>364</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>353</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>500</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>1118</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DRrobot.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>182</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>706</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/DR/codes/user/narrow.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/DRrobot20190304/DRrobot/app/libs/robot.py</url>
+          <line>903</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/servo_rpi.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/servo_rpi.py</url>
+          <line>394</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/servo_rpi.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>1180</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>384</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>1210</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>414</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>1238</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>358</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>1109</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/meta_robot.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>981</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>1069</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>98</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/robot.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>inspect(self.__class__).columns.keys()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inspect(self.__class__).keys()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inspect(self.__class__)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>columns</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.fields.columns._data.keys()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.fields.columns._data.keys</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.fields.columns._data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>User.query</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>form.validate()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/api/v1/codes.py" />
+    <entry file="file://$PROJECT_DIR$/app/validators/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/actions.py" />
+    <entry file="file://$PROJECT_DIR$/app/libs/enums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/camera.py" />
+    <entry file="file://D:/../智能佳合作项目/程序文件/机器人程序20180810-最终版/robot_v14.py" />
+    <entry file="file://D:/../智能佳合作项目/程序文件/机器人程序20180810-最终版/mp3.py" />
+    <entry file="file://$PROJECT_DIR$/app/api/v1/instructs.py" />
+    <entry file="file://D:/../智能佳合作项目/程序文件/机器人程序20180810-最终版/wifi.py" />
+    <entry file="file://$PROJECT_DIR$/../../2-19.py" />
+    <entry file="file://$PROJECT_DIR$/../众筹版机器人程序/DRrobot/app/DR/data/store_sd.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1369538673/_socket.py" />
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../众筹版机器人程序/DRrobot/app/libs/instructs.py" />
+    <entry file="file://$PROJECT_DIR$/../../meta_robot(1).py" />
+    <entry file="file://$PROJECT_DIR$/app/config/secure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DR/codes/user/stick_up.py" />
+    <entry file="file://$PROJECT_DIR$/app/libs/1" />
+    <entry file="file://$PROJECT_DIR$/app/libs/12" />
+    <entry file="file://$PROJECT_DIR$/app/DR/codes/user/narrow.py" />
+    <entry file="file://$PROJECT_DIR$/../../自我介绍(1)/自我介绍/dog_1.py" />
+    <entry file="file://$PROJECT_DIR$/../../自我介绍(1)/自我介绍/stick_2.py" />
+    <entry file="file://$PROJECT_DIR$/../../自我介绍(1)/自我介绍/spider_3.py" />
+    <entry file="file://$PROJECT_DIR$/../../自我介绍(1)/自我介绍/gecko_4.py" />
+    <entry file="file://$PROJECT_DIR$/app/libs/1.py" />
+    <entry file="file://$PROJECT_DIR$/../../新建文件夹(1)/新建文件夹/dog_thanks_3.py" />
+    <entry file="file://$PROJECT_DIR$/app/libs/tf_test.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/../DRrobot_v33/app/libs/meta_robot.py" />
+    <entry file="file://$PROJECT_DIR$/../DRrobot_v33/app/libs/robot.py" />
+    <entry file="file://$PROJECT_DIR$/DRrobot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/DRrobot20190304/DRrobot/app/libs/robot.py" />
+    <entry file="file://$USER_HOME$/DRrobot20190304/DRrobot/app/libs/meta_robot.py" />
+    <entry file="file://$PROJECT_DIR$/../DRrobot/app/libs/music.py" />
+    <entry file="file://$PROJECT_DIR$/../DRrobot/app/libs/meta_robot.py" />
+    <entry file="file://$PROJECT_DIR$/../DRdata/new_version.txt" />
+    <entry file="file://$PROJECT_DIR$/../DRboot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="88" column="74" lean-forward="true" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/switch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/mp3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/error_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/servo_rpi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="430" column="64" lean-forward="true" selection-start-line="430" selection-start-column="64" selection-end-line="430" selection-end-column="64" />
+          <folding>
+            <element signature="e#24#301#1" />
+            <element signature="e#481#501#0" />
+            <element signature="e#539#1228#0" />
+            <element signature="e#632#741#0" />
+            <element signature="e#790#948#0" />
+            <element signature="e#973#1163#0" />
+            <element signature="e#1005#1163#0" />
+            <element signature="e#1182#1228#0" />
+            <element signature="e#1258#1793#0" />
+            <element signature="e#1429#1587#0" />
+            <element signature="e#1489#1587#0" />
+            <element signature="e#1538#1587#0" />
+            <element signature="e#1741#1793#0" />
+            <element signature="e#1842#2964#0" />
+            <element signature="e#1842#2307#1" />
+            <element signature="e#2487#2563#0" />
+            <element signature="e#2594#2672#0" />
+            <element signature="e#2927#2964#0" />
+            <element signature="e#3054#4894#0" />
+            <element signature="e#3054#3524#1" />
+            <element signature="e#3608#4812#0" />
+            <element signature="e#3631#3990#0" />
+            <element signature="e#4024#4760#0" />
+            <element signature="e#4064#4617#0" />
+            <element signature="e#4181#4289#0" />
+            <element signature="e#4352#4462#0" />
+            <element signature="e#4831#4894#0" />
+            <element signature="e#4938#5532#0" />
+            <element signature="e#4938#5349#1" />
+            <element signature="e#5569#6155#0" />
+            <element signature="e#5569#5976#1" />
+            <element signature="e#6196#6443#0" />
+            <element signature="e#6196#6390#1" />
+            <element signature="e#6483#6791#0" />
+            <element signature="e#6483#6741#1" />
+            <element signature="e#6829#6851#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/store_sd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/meta_robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <element signature="e#48#91#0" expanded="true" />
+            <element signature="e#933#1001#0" />
+            <element signature="e#1260#1468#0" />
+            <element signature="e#1512#1958#0" />
+            <element signature="e#1765#1943#0" />
+            <element signature="e#1793#1842#0" />
+            <element signature="e#1881#1943#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/instructs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#475#4419#0" />
+            <element signature="e#4448#4622#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/instructs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DRrobot_v38/DRcode/app/libs/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="1101" column="54" lean-forward="true" selection-start-line="1101" selection-start-column="54" selection-end-line="1101" selection-end-column="54" />
+          <folding>
+            <element signature="e#747#785#0" />
+            <element signature="e#952#1054#0" />
+            <element signature="e#1225#1372#0" />
+            <element signature="e#1238#1336#0" />
+            <element signature="e#1406#1537#0" />
+            <element signature="e#1419#1501#0" />
+            <element signature="e#1576#1891#0" />
+            <element signature="e#1589#1855#0" />
+            <element signature="e#1926#2214#0" />
+            <element signature="e#1939#2178#0" />
+            <element signature="e#2250#2405#0" />
+            <element signature="e#2263#2369#0" />
+            <element signature="e#2448#2690#0" />
+            <element signature="e#2461#2654#0" />
+            <element signature="e#2715#3004#0" />
+            <element signature="e#2728#2968#0" />
+            <element signature="e#3603#3947#0" />
+            <element signature="e#3668#3813#0" />
+            <element signature="e#3831#3911#0" />
+            <element signature="e#4346#4723#0" />
+            <element signature="e#4359#4582#0" />
+            <element signature="e#4623#4691#0" />
+            <element signature="e#4768#5094#0" />
+            <element signature="e#4781#4955#0" />
+            <element signature="e#4996#5062#0" />
+            <element signature="e#5126#5256#0" />
+            <element signature="e#5139#5220#0" />
+            <element signature="e#5286#5415#0" />
+            <element signature="e#5450#5553#0" />
+            <element signature="e#5596#7371#0" />
+            <element signature="e#5748#5783#0" />
+            <element signature="e#5802#5831#0" />
+            <element signature="e#5872#6374#0" />
+            <element signature="e#5940#6036#0" />
+            <element signature="e#5972#6036#0" />
+            <element signature="e#6073#6118#0" />
+            <element signature="e#6156#6226#0" />
+            <element signature="e#6280#6317#0" />
+            <element signature="e#6344#6374#0" />
+            <element signature="e#6419#7357#0" />
+            <element signature="e#6537#6587#0" />
+            <element signature="e#6655#7357#0" />
+            <element signature="e#6722#7357#0" />
+            <element signature="e#6759#7133#0" />
+            <element signature="e#6936#7133#0" />
+            <element signature="e#7176#7357#0" />
+            <element signature="e#7410#8596#0" />
+            <element signature="e#7527#8568#0" />
+            <element signature="e#7563#7779#0" />
+            <element signature="e#7629#7720#0" />
+            <element signature="e#7826#8505#0" />
+            <element signature="e#7865#8143#0" />
+            <element signature="e#7987#8043#0" />
+            <element signature="e#8197#8464#0" />
+            <element signature="e#8319#8375#0" />
+            <element signature="e#8636#8930#0" />
+            <element signature="e#8690#8912#0" />
+            <element signature="e#8835#8912#0" />
+            <element signature="e#9040#11376#0" />
+            <element signature="e#9092#9300#0" />
+            <element signature="e#9113#9300#0" />
+            <element signature="e#9163#9300#0" />
+            <element signature="e#9343#10788#0" />
+            <element signature="e#9413#10110#0" />
+            <element signature="e#9469#9525#0" />
+            <element signature="e#9670#10110#0" />
+            <element signature="e#9765#9780#0" />
+            <element signature="e#10189#10788#0" />
+            <element signature="e#10321#10693#0" />
+            <element signature="e#10366#10381#0" />
+            <element signature="e#10728#10788#0" />
+            <element signature="e#10831#11245#0" />
+            <element signature="e#10927#11245#0" />
+            <element signature="e#11264#11376#0" />
+            <element signature="e#11303#11355#0" />
+            <element signature="e#11497#48468#0" />
+            <element signature="e#11655#11742#0" />
+            <element signature="e#11778#48468#0" />
+            <element signature="e#12176#12337#0" />
+            <element signature="e#12565#12699#0" />
+            <element signature="e#13467#13569#0" />
+            <element signature="e#13772#14566#0" />
+            <element signature="e#13813#13941#0" />
+            <element signature="e#14012#14519#0" />
+            <element signature="e#15634#17643#0" />
+            <element signature="e#15634#15660#0" />
+            <element signature="e#16361#17451#0" />
+            <element signature="e#18562#18725#0" />
+            <element signature="e#18772#20613#0" />
+            <element signature="e#18772#18854#0" />
+            <element signature="e#20660#21921#0" />
+            <element signature="e#20660#20760#0" />
+            <element signature="e#22716#22963#0" />
+            <element signature="e#23266#23359#0" />
+            <element signature="e#23572#25373#0" />
+            <element signature="e#23613#23741#0" />
+            <element signature="e#23776#23872#0" />
+            <element signature="e#23895#25326#0" />
+            <element signature="e#25420#25693#0" />
+            <element signature="e#25740#26012#0" />
+            <element signature="e#26059#26335#0" />
+            <element signature="e#26382#26655#0" />
+            <element signature="e#26702#26975#0" />
+            <element signature="e#27022#27292#0" />
+            <element signature="e#27339#27612#0" />
+            <element signature="e#27659#27931#0" />
+            <element signature="e#27978#28252#0" />
+            <element signature="e#28299#28574#0" />
+            <element signature="e#28621#28989#0" />
+            <element signature="e#28815#28989#0" />
+            <element signature="e#29036#29313#0" />
+            <element signature="e#29360#29634#0" />
+            <element signature="e#29681#29958#0" />
+            <element signature="e#30013#35731#0" />
+            <element signature="e#30013#30086#0" />
+            <element signature="e#32027#32420#0" />
+            <element signature="e#33651#33812#0" />
+            <element signature="e#34122#34260#0" />
+            <element signature="e#34313#34453#0" />
+            <element signature="e#34880#35100#0" />
+            <element signature="e#35387#35507#0" />
+            <element signature="e#35778#36224#0" />
+            <element signature="e#35788#36177#0" />
+            <element signature="e#35882#35921#0" />
+            <element signature="e#35991#36041#0" />
+            <element signature="e#36107#36156#0" />
+            <element signature="e#36284#37501#0" />
+            <element signature="e#36409#37446#0" />
+            <element signature="e#37556#38191#0" />
+            <element signature="e#37566#38144#0" />
+            <element signature="e#38247#38365#0" />
+            <element signature="e#38412#38958#0" />
+            <element signature="e#38412#38490#0" />
+            <element signature="e#38831#38958#0" />
+            <element signature="e#39005#39169#0" />
+            <element signature="e#39216#39416#0" />
+            <element signature="e#39226#39369#0" />
+            <element signature="e#39463#39725#0" />
+            <element signature="e#39473#39678#0" />
+            <element signature="e#39570#39604#0" />
+            <element signature="e#39772#40002#0" />
+            <element signature="e#39782#39955#0" />
+            <element signature="e#39844#39878#0" />
+            <element signature="e#40049#40279#0" />
+            <element signature="e#40059#40232#0" />
+            <element signature="e#40121#40155#0" />
+            <element signature="e#40326#40427#0" />
+            <element signature="e#40474#40735#0" />
+            <element signature="e#40484#40688#0" />
+            <element signature="e#40782#41162#0" />
+            <element signature="e#40792#41115#0" />
+            <element signature="e#41248#42509#0" />
+            <element signature="e#41289#41417#0" />
+            <element signature="e#41490#42378#0" />
+            <element signature="e#42595#43854#0" />
+            <element signature="e#42636#42764#0" />
+            <element signature="e#42837#43807#0" />
+            <element signature="e#43940#45096#0" />
+            <element signature="e#43981#44109#0" />
+            <element signature="e#44182#45049#0" />
+            <element signature="e#45143#45267#0" />
+            <element signature="e#45314#45415#0" />
+            <element signature="e#45462#45563#0" />
+            <element signature="e#45610#45711#0" />
+            <element signature="e#45758#45900#0" />
+            <element signature="e#45947#46136#0" />
+            <element signature="e#45957#46089#0" />
+            <element signature="e#46183#46288#0" />
+            <element signature="e#46335#46440#0" />
+            <element signature="e#46487#46692#0" />
+            <element signature="e#46497#46645#0" />
+            <element signature="e#46739#46842#0" />
+            <element signature="e#46890#46992#0" />
+            <element signature="e#48344#48363#0" />
+            <element signature="e#48517#49727#0" />
+            <element signature="e#48534#49683#0" />
+            <element signature="e#49770#50374#0" />
+            <element signature="e#49787#50330#0" />
+            <element signature="e#50079#50330#0" />
+            <element signature="e#50182#50330#0" />
+            <element signature="e#50415#51698#0" />
+            <element signature="e#50459#51609#0" />
+            <element signature="e#50459#50489#0" />
+            <element signature="e#50836#51609#0" />
+            <element signature="e#50937#50949#0" />
+            <element signature="e#51153#51328#0" />
+            <element signature="e#51391#51460#0" />
+            <element signature="e#51525#51609#0" />
+            <element signature="e#51648#51698#0" />
+            <element signature="e#51740#52158#0" />
+            <element signature="e#51792#52114#0" />
+            <element signature="e#51801#52088#0" />
+            <element signature="e#52220#52436#0" />
+            <element signature="e#52237#52392#0" />
+            <element signature="e#53848#54003#0" />
+            <element signature="e#53909#54003#0" />
+            <element signature="e#54066#54155#0" />
+            <element signature="e#54235#54511#0" />
+            <element signature="e#54252#54467#0" />
+            <element signature="e#54587#54855#0" />
+            <element signature="e#54604#54811#0" />
+            <element signature="e#54947#55057#0" />
+            <element signature="e#55131#55224#0" />
+            <element signature="e#55294#55484#0" />
+            <element signature="e#55311#55440#0" />
+            <element signature="e#55550#55735#0" />
+            <element signature="e#55567#55691#0" />
+            <element signature="e#55815#56643#0" />
+            <element signature="e#55840#56227#0" />
+            <element signature="e#55939#56176#0" />
+            <element signature="e#55964#56116#0" />
+            <element signature="e#56254#56643#0" />
+            <element signature="e#56354#56592#0" />
+            <element signature="e#56379#56532#0" />
+            <element signature="e#56712#57582#0" />
+            <element signature="e#56737#57145#0" />
+            <element signature="e#56831#57094#0" />
+            <element signature="e#56856#56978#0" />
+            <element signature="e#57172#57582#0" />
+            <element signature="e#57267#57531#0" />
+            <element signature="e#57292#57415#0" />
+            <element signature="e#57638#60166#0" />
+            <element signature="e#57706#57822#0" />
+            <element signature="e#57870#60166#0" />
+            <element signature="e#57970#58212#0" />
+            <element signature="e#58254#58667#0" />
+            <element signature="e#59144#59614#0" />
+            <element signature="e#59658#59885#0" />
+            <element signature="e#59929#60166#0" />
+            <element signature="e#60225#60358#0" />
+            <element signature="e#60242#60314#0" />
+            <element signature="e#60419#60687#0" />
+            <element signature="e#60436#60643#0" />
+            <element signature="e#60745#60845#0" />
+            <element signature="e#60895#60927#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#48#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="1112" column="47" lean-forward="true" selection-start-line="1112" selection-start-column="47" selection-end-line="1112" selection-end-column="47" />
+          <folding>
+            <element signature="e#747#785#0" />
+            <element signature="e#1238#1336#0" />
+            <element signature="e#1406#1537#0" />
+            <element signature="e#1576#1891#0" />
+            <element signature="e#1926#2214#0" />
+            <element signature="e#2250#2405#0" />
+            <element signature="e#2448#2690#0" />
+            <element signature="e#2715#3004#0" />
+            <element signature="e#3107#3457#0" />
+            <element signature="e#3750#4096#0" />
+            <element signature="e#4346#4723#0" />
+            <element signature="e#4359#4582#0" />
+            <element signature="e#4623#4691#0" />
+            <element signature="e#4768#5094#0" />
+            <element signature="e#4781#4955#0" />
+            <element signature="e#4996#5062#0" />
+            <element signature="e#5126#5256#0" />
+            <element signature="e#5139#5220#0" />
+            <element signature="e#5286#5415#0" />
+            <element signature="e#5450#5553#0" />
+            <element signature="e#5596#7371#0" />
+            <element signature="e#5748#5783#0" />
+            <element signature="e#5802#5831#0" />
+            <element signature="e#5940#6036#0" />
+            <element signature="e#5972#6036#0" />
+            <element signature="e#6073#6118#0" />
+            <element signature="e#6280#6317#0" />
+            <element signature="e#6344#6374#0" />
+            <element signature="e#6419#7357#0" />
+            <element signature="e#6537#6587#0" />
+            <element signature="e#6655#7357#0" />
+            <element signature="e#6722#7357#0" />
+            <element signature="e#6759#7133#0" />
+            <element signature="e#6936#7133#0" />
+            <element signature="e#7176#7357#0" />
+            <element signature="e#7410#8596#0" />
+            <element signature="e#7527#8568#0" />
+            <element signature="e#7563#7779#0" />
+            <element signature="e#7629#7720#0" />
+            <element signature="e#7826#8505#0" />
+            <element signature="e#7865#8143#0" />
+            <element signature="e#7987#8043#0" />
+            <element signature="e#8197#8464#0" />
+            <element signature="e#8319#8375#0" />
+            <element signature="e#8636#8930#0" />
+            <element signature="e#8690#8912#0" />
+            <element signature="e#8835#8912#0" />
+            <element signature="e#9040#11317#0" />
+            <element signature="e#9092#9300#0" />
+            <element signature="e#9113#9300#0" />
+            <element signature="e#9163#9300#0" />
+            <element signature="e#9343#10729#0" />
+            <element signature="e#9413#10051#0" />
+            <element signature="e#9469#9525#0" />
+            <element signature="e#9647#10051#0" />
+            <element signature="e#9706#9721#0" />
+            <element signature="e#10130#10729#0" />
+            <element signature="e#10262#10634#0" />
+            <element signature="e#10307#10322#0" />
+            <element signature="e#10669#10729#0" />
+            <element signature="e#10772#11186#0" />
+            <element signature="e#10868#11186#0" />
+            <element signature="e#11205#11317#0" />
+            <element signature="e#11244#11296#0" />
+            <element signature="e#11438#48409#0" />
+            <element signature="e#11596#11683#0" />
+            <element signature="e#11719#48409#0" />
+            <element signature="e#12117#12278#0" />
+            <element signature="e#12506#12640#0" />
+            <element signature="e#13408#13510#0" />
+            <element signature="e#13713#14507#0" />
+            <element signature="e#13754#13882#0" />
+            <element signature="e#13953#14460#0" />
+            <element signature="e#15575#17584#0" />
+            <element signature="e#15575#15601#0" />
+            <element signature="e#16302#17392#0" />
+            <element signature="e#18503#18666#0" />
+            <element signature="e#18713#20554#0" />
+            <element signature="e#18713#18795#0" />
+            <element signature="e#20601#21862#0" />
+            <element signature="e#20601#20701#0" />
+            <element signature="e#22657#22904#0" />
+            <element signature="e#23207#23300#0" />
+            <element signature="e#23513#25314#0" />
+            <element signature="e#23554#23682#0" />
+            <element signature="e#23717#23813#0" />
+            <element signature="e#23836#25267#0" />
+            <element signature="e#25361#25634#0" />
+            <element signature="e#25681#25953#0" />
+            <element signature="e#26000#26276#0" />
+            <element signature="e#26323#26596#0" />
+            <element signature="e#26643#26916#0" />
+            <element signature="e#26963#27233#0" />
+            <element signature="e#27280#27553#0" />
+            <element signature="e#27600#27872#0" />
+            <element signature="e#27919#28193#0" />
+            <element signature="e#28240#28515#0" />
+            <element signature="e#28562#28930#0" />
+            <element signature="e#28756#28930#0" />
+            <element signature="e#28977#29254#0" />
+            <element signature="e#29301#29575#0" />
+            <element signature="e#29622#29899#0" />
+            <element signature="e#29954#35672#0" />
+            <element signature="e#29954#30027#0" />
+            <element signature="e#31968#32361#0" />
+            <element signature="e#33592#33753#0" />
+            <element signature="e#34063#34201#0" />
+            <element signature="e#34254#34394#0" />
+            <element signature="e#34821#35041#0" />
+            <element signature="e#35328#35448#0" />
+            <element signature="e#35719#36165#0" />
+            <element signature="e#35729#36118#0" />
+            <element signature="e#35823#35862#0" />
+            <element signature="e#35932#35982#0" />
+            <element signature="e#36048#36097#0" />
+            <element signature="e#36225#37442#0" />
+            <element signature="e#36350#37387#0" />
+            <element signature="e#37497#38132#0" />
+            <element signature="e#37507#38085#0" />
+            <element signature="e#38188#38306#0" />
+            <element signature="e#38353#38899#0" />
+            <element signature="e#38353#38431#0" />
+            <element signature="e#38772#38899#0" />
+            <element signature="e#38946#39110#0" />
+            <element signature="e#39157#39357#0" />
+            <element signature="e#39167#39310#0" />
+            <element signature="e#39404#39666#0" />
+            <element signature="e#39414#39619#0" />
+            <element signature="e#39511#39545#0" />
+            <element signature="e#39713#39943#0" />
+            <element signature="e#39723#39896#0" />
+            <element signature="e#39785#39819#0" />
+            <element signature="e#39990#40220#0" />
+            <element signature="e#40000#40173#0" />
+            <element signature="e#40062#40096#0" />
+            <element signature="e#40267#40368#0" />
+            <element signature="e#40415#40676#0" />
+            <element signature="e#40425#40629#0" />
+            <element signature="e#40723#41103#0" />
+            <element signature="e#40733#41056#0" />
+            <element signature="e#41189#42450#0" />
+            <element signature="e#41230#41358#0" />
+            <element signature="e#41431#42319#0" />
+            <element signature="e#42536#43795#0" />
+            <element signature="e#42577#42705#0" />
+            <element signature="e#42778#43748#0" />
+            <element signature="e#43881#45037#0" />
+            <element signature="e#43922#44050#0" />
+            <element signature="e#44123#44990#0" />
+            <element signature="e#45084#45208#0" />
+            <element signature="e#45255#45356#0" />
+            <element signature="e#45403#45504#0" />
+            <element signature="e#45551#45652#0" />
+            <element signature="e#45699#45841#0" />
+            <element signature="e#45888#46077#0" />
+            <element signature="e#45898#46030#0" />
+            <element signature="e#46124#46229#0" />
+            <element signature="e#46276#46381#0" />
+            <element signature="e#46428#46633#0" />
+            <element signature="e#46438#46586#0" />
+            <element signature="e#46680#46783#0" />
+            <element signature="e#46831#46933#0" />
+            <element signature="e#48285#48304#0" />
+            <element signature="e#50067#50318#0" />
+            <element signature="e#50170#50318#0" />
+            <element signature="e#50403#51686#0" />
+            <element signature="e#50447#51597#0" />
+            <element signature="e#50447#50477#0" />
+            <element signature="e#50824#51597#0" />
+            <element signature="e#50925#50937#0" />
+            <element signature="e#51141#51316#0" />
+            <element signature="e#51379#51448#0" />
+            <element signature="e#51513#51597#0" />
+            <element signature="e#51636#51686#0" />
+            <element signature="e#51728#52182#0" />
+            <element signature="e#51816#52138#0" />
+            <element signature="e#51825#52112#0" />
+            <element signature="e#52244#52460#0" />
+            <element signature="e#53872#54027#0" />
+            <element signature="e#53933#54027#0" />
+            <element signature="e#54090#54179#0" />
+            <element signature="e#54259#54535#0" />
+            <element signature="e#54276#54491#0" />
+            <element signature="e#54611#54879#0" />
+            <element signature="e#54628#54835#0" />
+            <element signature="e#54971#55081#0" />
+            <element signature="e#55155#55248#0" />
+            <element signature="e#55318#55508#0" />
+            <element signature="e#55335#55464#0" />
+            <element signature="e#55574#55759#0" />
+            <element signature="e#55591#55715#0" />
+            <element signature="e#55839#56667#0" />
+            <element signature="e#55864#56251#0" />
+            <element signature="e#55963#56200#0" />
+            <element signature="e#55988#56140#0" />
+            <element signature="e#56278#56667#0" />
+            <element signature="e#56378#56616#0" />
+            <element signature="e#56403#56556#0" />
+            <element signature="e#56736#57606#0" />
+            <element signature="e#56761#57169#0" />
+            <element signature="e#56855#57118#0" />
+            <element signature="e#56880#57002#0" />
+            <element signature="e#57196#57606#0" />
+            <element signature="e#57291#57555#0" />
+            <element signature="e#57316#57439#0" />
+            <element signature="e#57662#62572#0" />
+            <element signature="e#57730#57846#0" />
+            <element signature="e#57894#62572#0" />
+            <element signature="e#57994#58236#0" />
+            <element signature="e#58291#58526#0" />
+            <element signature="e#58568#58981#0" />
+            <element signature="e#59458#60170#0" />
+            <element signature="e#60214#60799#0" />
+            <element signature="e#60843#61937#0" />
+            <element signature="e#61981#62572#0" />
+            <element signature="e#60839#60972#0" />
+            <element signature="e#60856#60928#0" />
+            <element signature="e#61033#61301#0" />
+            <element signature="e#61050#61257#0" />
+            <element signature="e#61359#61459#0" />
+            <element signature="e#61509#61541#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
