@@ -1,4 +1,4 @@
-
+# coding=utf-8
 
 import serial
 import math as cm
@@ -99,3 +99,35 @@ def turn_off(state=0):
     data[5] = 0
     data[7] = 125
     write_data(data)
+
+
+def get_camera_state():
+    """function:
+    摄像头转接板
+    获取摄像头电源状态
+    """
+    data = [0, 0, 13, 50, 0, 1, 0, 0]
+    data[0] = 123
+    data[1] = 0
+    data[2] = 0x30
+    data[3] = 0x14
+    data[4] = 0
+    data[5] = 0
+    data[6] = (data[1] + data[2] + data[3] + data[4] + data[5]) % 100
+    data[7] = 125
+    write_data(data, r_n=1)
+    byte_list = read_data(8)
+    # print(byte_list)
+    if len(byte_list) == 8:
+        check = (byte_list[1] + byte_list[2] + byte_list[3] + byte_list[4] + byte_list[5]) % 100
+        if byte_list[6] == check and byte_list[0] == 123:
+            if byte_list[4] == 1:
+                return True
+            elif byte_list[4] == 0:
+                return False
+        else:
+            print("返回的数据校验失败")
+            return False
+    else:
+        print("读取摄像头开关状态失败")
+        return False

@@ -17,6 +17,9 @@ import operator
 import threading
 from DRcode.app.libs import servo_rpi as se
 from DRcode.app.libs import music as mp
+from DRcode.app.libs import laser as la
+from DRcode.app.libs import led_cur as lc
+from DRcode.app.libs import touch as to
 
 # from DRcode.app.libs import udp as u
 
@@ -120,16 +123,6 @@ def get_net_id():
     except Exception as result:
         print('检测出异常{} in /robot/get_net_id'.format(result))
         raise
-
-
-def get_net_ssid():
-    try:
-        ssid = os.popen('sudo wpa_cli -i wlan0 status|grep ^\"ssid\"').read()
-        # print('get id', get_id)
-        print("当前连接网络为：" + ssid)
-        mp.speak("当前连接网络为：" + ssid)
-    except Exception as result:
-        print('检测出异常{} in /robot/get_net_ssid'.format(result))
 
 
 def delete_network(net_id):
@@ -1047,7 +1040,8 @@ class Robot:
         except Exception:
             raise
 
-    def app_udp_connect(self):
+    @staticmethod
+    def app_udp_connect():
         # global APP_UDP_S
         try:
             # address = ('', APP_UDP_PORT)
@@ -1094,6 +1088,57 @@ class Robot:
             return states
         except Exception:
             raise
+
+    @staticmethod
+    def robot_sensors():
+        while True:
+            try:
+                if gl.get_value('state') == 'WAITING':
+                    state = Robot.robot_check_sensors()
+                    if state != []:
+                        state1 = Robot.robot_check_sensors()
+                        if state1 != []:
+                            print("触摸传感器被激活：")
+                            print(state)
+                            print(state1)
+                    time.sleep(0.5)
+                else:
+                    time.sleep(0.5)
+            except KeyboardInterrupt:
+                print("动作急停!!!")
+                gl.set_value('state', 'WAITING')
+                Robot.robot_sensors()
+            except Exception as result:
+                print('检测出异常{}'.format(result))
+                gl.set_value('state', 'WAITING')
+                Robot.robot_sensors()
+
+    @staticmethod
+    def robot_check_sensors():
+        try:
+            laser_state = []
+            touch_state = []
+            n = 0
+            for i in range(4):
+                if gl.get_value('state') == 'WAITING':
+                    data = to.get_touch(id_num=i + 1)
+                    n = n + len(data)
+                    if not data:
+                        touch_state.append(data)
+                    else:
+                        print("读取触摸传感器失败")
+                        return []
+                else:
+                    print("当前机器人繁忙，停止监听传感器状态")
+                    return []
+            if n > 0:
+                return touch_state
+            else:
+                print("触摸传感器空闲")
+                return []
+        except Exception as result:
+            print('检测出异常{}'.format(result))
+            return []
 
     @staticmethod
     def robot_get_network_list():
@@ -1274,7 +1319,7 @@ class Robot:
             if os.path.isfile(path):
                 try:
                     fd = open(path, "r")
-                    exec (fd.read())
+                    exec(fd.read())
                     # print('文件路径为：' + CODE_PATH_SYS + code_name)
                 except Exception:
                     raise
@@ -1287,7 +1332,7 @@ class Robot:
             if os.path.isfile(path):
                 try:
                     fd = open(path, "r")
-                    exec (fd.read())
+                    exec(fd.read())
                     # print('文件路径为：' + CODE_PATH_USER + code_name)
                 except Exception:
                     raise
@@ -1302,15 +1347,23 @@ class Robot:
         if order.find('M') > -1:
             file_name = origaker.posture + '_' + order + ".wav"
             mp.play(file=file_name, path="recognition", block=0)
+            m = int(order[1]) * 100 + int(order[2]) * 10 + int(order[3])
+            if m == 14:
+                origaker.turn_off()
+            elif m == 15:
+                print("休息一下")
+                origaker.set_joint_mode(joint_num=121, mode="free")
+                time.sleep(0.5)
+                origaker.set_leds_mode(120, 0)
         elif order.find('N') > -1:
             n = int(order[1]) * 100 + int(order[2]) * 10 + int(order[3])
             if n <= 5:
                 action_list = ["shake_hand", "go_forward", "go_backward", "turn_left", "turn_right"]
                 action_name = origaker.posture + '_' + action_list[n - 1]
                 origaker.exe_action(action_name=action_name, speed=1.0, path="sys")
-            elif n >= 11 and n <= 17:
-                action_list = ["cute", "happy", "angry", "sad", "hungry", "ponder", "tango"]
-                action_name = origaker.posture + '_' + action_list[n - 11]
+            elif n >= 12 and n <= 18:
+                action_list = ["happy", "angry", "sad", "hungry", "ponder", "tango", "sleep"]
+                action_name = origaker.posture + '_' + action_list[n - 12]
                 origaker.exe_action(action_name=action_name, speed=1.0, path="sys")
             elif n == 6:
                 if origaker.posture == "gecko":
@@ -1318,7 +1371,7 @@ class Robot:
                 elif origaker.posture == "stick":
                     origaker.exe_action(action_name="stick_arch_body", speed=1.0, path="sys")
                 elif origaker.posture == "spider":
-                    origaker.exe_action(action_name="tick_arch_body", speed=1.0, path="sys")
+                    origaker.exe_action(action_name="spider_shake_body", speed=1.0, path="sys")
             elif n == 7:
                 origaker.exe_action(action_name="to_spider2", speed=1.0, path="sys")
             elif n == 8:
@@ -1340,17 +1393,21 @@ class Robot:
                     origaker.exe_action(action_name="dog_shake_hand1", speed=1, path="sys")
                 elif n == 206:
                     origaker.exe_action(action_name="dog_playful", speed=1, path="sys")
+                elif n == 207:
+                    origaker.exe_action(action_name="dog_cute", speed=1, path="sys")
             elif n >= 400:
                 if n == 400:
-                    origaker.exe_action(action_name="gecko_volatility", speed=1.0, path="sys")
+                    origaker.exe_action(action_name="gecko_unpack", speed=1.0, path="sys")
                 elif n == 401:
                     origaker.exe_action(action_name="gecko_pack", speed=0.5, path="sys")
                 elif n == 402:
                     origaker.exe_action(action_name="gecko_wonder", speed=1, path="sys")
                 elif n == 403:
                     origaker.exe_action(action_name="gecko_creep", speed=1, path="sys")
-                elif n == 404:
-                    origaker.exe_action(action_name="gecko_sleep", speed=1, path="sys")
+                elif n == 405:
+                    origaker.exe_action(action_name="gecko_ponder", speed=1, path="sys")
+                elif n == 406:
+                    origaker.exe_action(action_name="gecko_tango", speed=1, path="sys")
             elif n >= 600:
                 if n == 600:
                     origaker.exe_action(action_name="stick_go_upstairs", speed=1.0, path="sys")
@@ -1358,29 +1415,20 @@ class Robot:
                     origaker.exe_action(action_name="stick_go_downstairs", speed=1.0, path="sys")
                 elif n == 602:
                     origaker.exe_action(action_name="stick_pretty", speed=1.0, path="sys")
-                if n == 603:
+                elif n == 603:
                     origaker.exe_action(action_name="stick_dance_group", speed=1.0, path="sys")
-                elif n == 604:
-                    origaker.exe_action(action_name="stick_yoga", speed=1.0, path="sys")
                 elif n == 605:
                     origaker.exe_action(action_name="stick_run", speed=1.0, path="sys")
-                if n == 606:
-                    origaker.exe_action(action_name="stick_exercise", speed=1.0, path="sys")
-                elif n == 607:
-                    origaker.exe_action(action_name="stick_stepping", speed=1.0, path="sys")
-                elif n == 608:
-                    origaker.exe_action(action_name="stick_tap_dance", speed=1.0, path="sys")
             elif n >= 800:
                 if n == 800:
                     origaker.exe_action(action_name="spider_wonder", speed=1.0, path="sys")
                 elif n == 801:
-                    origaker.exe_action(action_name="spider_laugh", speed=0.5, path="sys")
-                elif n == 802:
-                    origaker.exe_action(action_name="spider_snicker", speed=1, path="sys")
-                elif n == 803:
                     origaker.exe_action(action_name="spider_surprise", speed=1, path="sys")
-                elif n == 804:
-                    origaker.exe_action(action_name="spider_sleep", speed=1, path="sys")
+        elif order.find('E') > -1:
+            n = int(order[1]) * 100 + int(order[2]) * 10 + int(order[3])
+            if n == 1:
+                file_name = origaker.posture + '_' + order + ".wav"
+                mp.play(file=file_name, path="recognition", block=0)
 
     @staticmethod
     def robot_mode(mode, num):
@@ -1411,6 +1459,3 @@ class Robot:
     @staticmethod
     def stop_music():
         os.system("sudo pkill -f aplay")
-
-
-get_net_ssid()

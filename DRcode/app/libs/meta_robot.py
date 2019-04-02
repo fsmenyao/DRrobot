@@ -1125,25 +1125,34 @@ class MetaRobot(object):
         return self.posture
 
     def get_electricity(self):
-        return 55
         p = 0
+        N = 0
         for i in range(5):
             power = sw.get_voltage()
-            while not power:
+            n = 5
+            while (not power) and n > 0:
+                n = n - 1
                 power = sw.get_voltage()
-            p = p + power
-        print("电池剩余电量为", p / 5, "mAh")
-        if p > 10000:
-            p = 10000
-        self.power = int(p / 100)
-        if self.power <= 5:  # 电量过低提示（语音+动作）
-            music_list = ["B001", "B201", "B301", "B500"]
-            file_name = self.posture + '_' + music_list[self.c_state - 1] + ".wav"
-            mp.play(file=file_name, path="character", block=0)
-            action = "low_battery"
-            action_name = self.posture + '_' + action
-            self.exe_action(action_name=action_name, speed=1.0, path="sys")
-        return self.power
+            if power:
+                p = p + power
+                N = N + 1
+            else:
+                print("读取电量失败")
+        if N == 5:
+            print("电池剩余电量为", p / 5, "mAh")
+            if p > 10000:
+                p = 10000
+            self.power = int(p / 100)
+            if self.power <= 5:  # 电量过低提示（语音+动作）
+                music_list = ["B001", "B201", "B301", "B500"]
+                file_name = self.posture + '_' + music_list[self.c_state - 1] + ".wav"
+                mp.play(file=file_name, path="character", block=0)
+                action = "low_battery"
+                action_name = self.posture + '_' + action
+                self.exe_action(action_name=action_name, speed=1.0, path="sys")
+            return self.power
+        else:
+            print("电量开关板出现故障，请检查！！")
 
     # mp3
     @staticmethod

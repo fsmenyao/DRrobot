@@ -1,3 +1,4 @@
+# coding=utf-8
 import socket
 from DRcode.app.libs.crc8 import Crc8
 import DRcode.app.libs.global_var as gl
@@ -97,6 +98,12 @@ class Camera:
         from DRcode.app.libs.camera_board import turn_off
         turn_off()
 
+    # 获取摄像头电源开关状态
+    @staticmethod
+    def get_camera_state():
+        from DRcode.app.libs.camera_board import get_camera_state
+        return get_camera_state()
+
 
 class Camera_UDP:
 
@@ -118,7 +125,7 @@ class Camera_UDP:
                           socket.inet_aton(MYGROUP) + socket.inet_aton(self.ip))
 
     def send_message(self, ssid, passphrase):
-        print('send message------------------------------')
+        print('UDP send message------------------------------')
         guide_code, datum_data, data = creat_content(ssid, passphrase, self.ip, self.bssid)
         messages = get_content(guide_code, datum_data, data)
         k = 0
@@ -156,3 +163,7 @@ class Camera_TCP:
         connetion.close()
         self.s.close()
         return True
+
+    def get_camera_ip(self):
+        print('get camera ip')
+        return str(gl.get_value('camera_ip'), 'utf-8')

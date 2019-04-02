@@ -5,22 +5,19 @@ class Instruct:
     @staticmethod
     def execute_stop():
         from DRcode.app.libs.robot import Robot
-        robot = Robot()
-        robot.stop_music()
-        frames = robot.robot_mode('free', 121)
+        Robot.stop_music()
+        frames = Robot.robot_mode('free', 121)
         return frames
 
     @staticmethod
     def execute_stop_music():
         from DRcode.app.libs.robot import Robot
-        robot = Robot()
-        robot.stop_music()
+        Robot.stop_music()
 
     @staticmethod
     def execute_read_action_frame():
         from DRcode.app.libs.robot import Robot
-        robot = Robot()
-        return robot.robot_read_action_frame()
+        return Robot.robot_read_action_frame()
 
     @staticmethod
     def execute_action_show(action_name, num, speed):
@@ -44,7 +41,7 @@ class Instruct:
         # return Robot.robot_show_code(code_name, num=num)
         # for l in code_body:
         #     print(l)
-        exec (code_body)
+        exec(code_body)
 
     @staticmethod
     def execute_mode(mode, num):
